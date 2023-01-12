@@ -1,0 +1,52 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* common style */
+body{
+    font-family: poppins;
+    background-color: #F3F1FF;
+}
+
+/* top-players style */
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #FFFFFF ;
+    width: 870px;
+    padding: 30px;
+    
+}
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+
+    align-items: center;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+    color: #000000;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+/* ================ */
